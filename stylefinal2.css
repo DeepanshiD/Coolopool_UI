@@ -1,0 +1,97 @@
+@font-face{
+    font-family: randomimport;
+    src: url("GlacialIndifference-Regular.ttf");
+}
+*
+{
+    font-family:randomimport; 
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(252, 252, 252);
+    background-color: rgb(255, 255, 255);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #666666;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #1fb8ff;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  .cont_2{
+    display: inline-block;
+    height:480px;
+    width:100%;
+    border: none;    
+    background-image: linear-gradient(to right, #4460ffd5 0%, #40d2ff 51%, #57d853 100%);
+}
+
+.section{
+    margin-bottom: 0px;
+}
+.block{
+    align-content: center;
+    height: 600px;
+    background: black;
+}
+.containersp {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  .sp{
+      margin-top: 30px;
+  }
+  .stylescr
+  {
+      background-color: #8b8b8b59;
+  }
